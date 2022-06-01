@@ -7,3 +7,18 @@
 #greeting-container {
   margin-top: 20px;
 }
+h1 {
+    border: 7px solid #000000;
+    text-align: center;
+    color: red;
+    /* background-color: #04031c; */
+    margin-bottom: 10px;
+  }
+  button{
+    border-radius: 0%;
+    /* border: 5px solid red; */
+  color:blue;
+  }
+  .myBtn2{
+    color:red;
+  }
