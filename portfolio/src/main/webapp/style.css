@@ -6,6 +6,7 @@
 
 #greeting-container {
   margin-top: 20px;
+  color:white;
 }
 h1 {
     border: 7px solid #000000;
@@ -17,8 +18,42 @@ h1 {
   button{
     border-radius: 0%;
     /* border: 5px solid red; */
-  color:blue;
+  color:red;
+  background-color: black;
   }
   .myBtn2{
     color:red;
   }
+  body {
+	background-image: url('sunset.webp');
+	background-size: cover;
+}
+p{
+    color:white;
+}
+a:hover{
+	color:red;
+    text-decoration-color:blue;
+}
+a{
+	color:blue;
+    text-decoration-style: dashed;
+	text-decoration-color: red;
+}
+.link1{
+    text-decoration: none;
+}
+button:hover{
+	color:black;
+  background-color: white;
+  cursor:pointer;
+}
+#heading{
+    font-weight: bold;
+}
+#myLife{
+    color:black;
+}
+div{
+    text-align: center;
+}
