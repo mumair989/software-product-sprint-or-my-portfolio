@@ -7,17 +7,22 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="content">
+      <!-- <img src="sunset.webp" alt="sunset Picture" -->
+      <!-- <p style="background-image: url('sunset.webp');"> -->
+    <div id="content" /*style="background-image: url('sunset.webp')"*/>
       <h1>My Portfolio</h1>
-      <p>This is Umair's portfolio.</p>
+      <p id="heading" >This is Umair's portfolio.</p>
+      <div>
       <img src="image1.PNG" alt="My picture" width="150" height="200" />
+      </div>
+      <p id="myLife">My name is Muhammad, I live in New York City, I am really excited to be a part of SPS. I joined Google SPS because I wanted to meet people from across the world and learn new things from everyone and the program itself. I believe SPS will further develop my technical and interpersonal skills and hopefully we will create something really cool together.</p>
       <p>Dont forget to add me on <a href="https://www.linkedin.com/in/muhammad-umair-07ab911b3/"
-        target="_blank">
+        target="_blank" class="link1">
         <button class="myBtn1">LinkedIn</button>
       </a> and on  <a href="https://github.com/mumair989"
       target="_blank">
       <button class="myBtn2">GitHub</button>
-    </a></p>
+    </a>
       
 
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
@@ -25,5 +30,6 @@
       <button onclick="addRandomGreeting()">Click</button>
       <div id="greeting-container"></div>
     </div>
+    </p>
   </body>
 </html>
