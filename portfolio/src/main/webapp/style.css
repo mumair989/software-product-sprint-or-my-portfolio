@@ -1,59 +1,76 @@
 #content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
-
-#greeting-container {
-  margin-top: 20px;
-  color:white;
-}
-h1 {
-    border: 7px solid #000000;
-    text-align: center;
-    color: red;
-    /* background-color: #04031c; */
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
   }
-  button{
-    border-radius: 0%;
-    /* border: 5px solid red; */
-  color:red;
-  background-color: black;
-  }
-  .myBtn2{
-    color:red;
-  }
-  body {
-	background-image: url('sunset.webp');
-	background-size: cover;
-}
-p{
+  
+  #greeting-container {
+    margin-top: 20px;
     color:white;
-}
-a:hover{
-	color:red;
-    text-decoration-color:blue;
-}
-a{
-	color:blue;
-    text-decoration-style: dashed;
-	text-decoration-color: red;
-}
-.link1{
-    text-decoration: none;
-}
-button:hover{
-	color:black;
-  background-color: white;
-  cursor:pointer;
-}
-#heading{
-    font-weight: bold;
-}
-#myLife{
-    color:black;
-}
-div{
-    text-align: center;
-}
+  }
+  h1 {
+      border: 7px dashed #ffffff;
+      text-align: center;
+      color: red;
+      /* background-color: #04031c; */
+      margin-bottom: 10px;
+    }
+    button{
+      border-radius: 0%;
+      /* border: 5px solid red; */
+    color:red;
+    background-color: black;
+    }
+    .myBtn2{
+      color:red;
+    }
+    body {
+      background-image: url('css-background.jpeg');
+      background-size: cover;
+  }
+  p{
+      color:white;
+  }
+  a:hover{
+      color:red;
+      text-decoration-color:blue;
+  }
+  a{
+      color:blue;
+      text-decoration-style: dashed;
+      text-decoration-color: red;
+  }
+  .link1{
+      text-decoration: none;
+  }
+  button:hover{
+      color:black;
+    background-color: white;
+    cursor:pointer;
+  }
+  #heading{
+      font-weight: bold;
+      color: #00fbff;
+      font-size:25px;
+      margin:15px;
+      text-decoration: underline;
+  
+  }
+  
+  div{
+      text-align: center;
+  }
+  #image1{
+      position:relative;
+      right:300px;
+      padding:0px, 0px;
+      margin:0px,0px;
+      
+  }
+  #myLife{
+      position:relative;
+      bottom: 200px;
+      left: 200px;
+      width:600px;
+      font-size:20px
+  }
