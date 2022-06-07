@@ -9,31 +9,51 @@
   <body>
       <!-- <img src="sunset.webp" alt="sunset Picture" -->
       <!-- <p style="background-image: url('sunset.webp');"> -->
-    <div id="content" /*style="background-image: url('sunset.webp')"*/>
+    <div id="content" ">
+      <div id="whiteCenter">
+        <img src="Images/layout.webp" alt="My picture" width="1100" height="2000" />
+        </div>
       <h1><i>My Portfolio</i></h1>
-      <p id="heading" >Hi there!</p>
+      <a href="https://www.linkedin.com/in/muhammad-umair-07ab911b3/"
+        target="_blank" class="link1">
+        <button class="linkedIn">LinkedIn</button>
+      </a>
+      <a href="https://github.com/mumair989"
+      target="_blank">
+      <button class="gitHub">GitHub</button>
+    </a>
+    <a href="#contact"><button class="Contact">Contact</button></a>
+    <a href="#projects"><button class="ProjectButton">Projects</button></a>
+    <a href="#secondBox"><button class="WorkButton">Experience</button></a>
+
+      
+      <!-- <p id="heading" >Hi there!</p> -->
       <div id="image1">
-      <img src="image1.PNG" alt="My picture" width="150" height="200" />
+      <img src="Images/image1.PNG" alt="My picture" width="250" height="350" />
       </div>
-      <p id="myLife">My name is <i style="color:red;">Muhammad Umair</i>, I live in New York City, I am really excited to be a participate of SPS.
+<p id="sideNote"><i style="color:rgb(255, 0, 0)">Hi their!</i><br> I am Muhammad Umair <br> </p>
+
+<article id="about">
+  <h2 id="aboutHeader">About Me</h2>
+      <p id="myLife">My name is <i style="color:red;">Muhammad Umair</i>, I live in New York City, I am really excited to be a participant of Google SPS Program.
         I joined Google SPS because I wanted to meet people from across the world and learn new things from everyone and the program itself.
         I believe SPS will further develop my technical and interpersonal skills and hopefully I will create something really cool together.</p>
-     
+      </article>
      
         <div id="projects">
         <h2 id="projectHeader">Projects</h2>
         <div id="chessBoard">
-        <img src="chessBoard.jpeg" alt="ChessBoard picture" width="200" height=150" />
+        <img src="Images/chessBoard.jpeg" alt="ChessBoard picture" width="200" height=150" />
     </div>
     <h4 id="queenTitle">Fancy 8 Queen</h4>
     <p id="queen">Created fancy chessboard where by running the code, prints out 92 solutions of a game w
-        ith 8 queens displayed on the board. Made with C++.<button id="8QueenCode">Code</button></p >     
+        ith 8 queens displayed on the board. Made with C++.<br><button id="8QueenCode">Code</button></p >     
 
             <div id="ImageEditor">
-            <img src="ImageEditor.png" alt="ImageEditor" width="200" height=150" />
+            <img src="Images/ImageEditor.png" alt="ImageEditor" width="200" height=150" />
         </div>
         <h4 id="editorTitle">ImageEditor</h4>
-        <p id="editorInfo">Created an ImageEditor Application that allows user to upload an image and edit it however they desire and also allows them to download into their local computer
+        <p id="editorInfo">Created an ImageEditor Application that allows user to upload an image and edit it however they desire and also allows them to download into their local computer<br>
              <a href="https://cssifinal.glitch.me/" target="_blank"><button>Demo</button> </a></p
     </div>
 
@@ -54,23 +74,30 @@
 
     </div>
 
+    <div id=thirdBox>
+        
+    </div>
 
 
-    
+    <div id="lastContainer">
+      <h4 id="contact">Contact Info</h4>
 
-        <p>Dont forget to add me on <a href="https://www.linkedin.com/in/muhammad-umair-07ab911b3/"
+        <!-- <p>Dont forget to add me on <a href="https://www.linkedin.com/in/muhammad-umair-07ab911b3/"
         target="_blank" class="link1">
         <button class="myBtn1">LinkedIn</button>
       </a> and on  <a href="https://github.com/mumair989"
       target="_blank">
       <button class="myBtn2">GitHub</button>
-    </a>
+    </a> -->
       
-
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random facts about me:</p>
       <button onclick="addRandomGreeting()">Click</button>
       <div id="greeting-container"></div>
+
+      
+    </div>
+
     </div>
     </p>
   </body>
