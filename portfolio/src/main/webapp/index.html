@@ -10,7 +10,7 @@
       <!-- <img src="sunset.webp" alt="sunset Picture" -->
       <!-- <p style="background-image: url('sunset.webp');"> -->
     <div id="content" ">
-      <div id="whiteCenter">
+      <div id="white-center">
         <img src="Images/layout.webp" alt="My picture" width="1100" height="2000" />
         </div>
       <h1><i>My Portfolio</i></h1>
@@ -31,7 +31,7 @@
       <div id="image1">
       <img src="Images/image1.PNG" alt="My picture" width="250" height="350" />
       </div>
-<p id="sideNote"><i style="color:rgb(255, 0, 0)">Hi their!</i><br> I am Muhammad Umair <br> </p>
+<p id="sideNote"><i style="color:rgb(255, 0, 0)">Hi there!</i><br> I am Muhammad Umair <br> </p>
 
 <article id="about">
   <h2 id="aboutHeader">About Me</h2>
@@ -58,8 +58,8 @@
     </div>
 
 
-<div id="secondBox">
-    <h2 id="Work">Word Experience</h2>
+<div id="workBox">
+    <h2 id="Work">Work Experience</h2>
     <h4 id="google">Google(CSSI)</h4>
     <p id="google-info">Participated in a 4-week intensive computer science summer program for high-achieving students
         • Completed an introductory project-based java script processing curriculum taught by Google engineers
@@ -73,11 +73,6 @@
     • Strong interpersonal skills in working with students to help them achieve and succeed.</p>
 
     </div>
-
-    <div id=thirdBox>
-        
-    </div>
-
 
     <div id="lastContainer">
       <h4 id="contact">Contact Info</h4>
@@ -93,6 +88,18 @@
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random facts about me:</p>
       <button onclick="addRandomGreeting()">Click</button>
+
+      <form action="/hello" method="POST">
+        <p>Enter Your contact info here:</p>
+        <textarea name="text-input">Enter Your Contact Info:</textarea>
+        <br/>
+        <input type="submit" />
+        <!-- <button onclick="showServerTime"></button> -->
+        <p id="date-container"></p>
+      </form>
+      <button onclick="showServerTime()">Server Info</button>
+      
+
       <div id="greeting-container"></div>
 
       
