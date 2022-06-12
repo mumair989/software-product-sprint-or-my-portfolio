@@ -1,9 +1,10 @@
 #content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
   }
-  #whiteCenter {
+
+  #white-center {
     /* display: block;
     margin-left: auto;
     margin-right: auto;
@@ -202,7 +203,7 @@
   #8QueenCode {
     position: relative;
   }
-  #secondBox {
+  #workBox {
     border: 3px solid rgb(0, 0, 0);
     position: relative;
     /*  left: -160px; */
