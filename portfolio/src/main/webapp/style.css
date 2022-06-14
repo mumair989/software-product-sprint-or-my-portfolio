@@ -79,14 +79,14 @@
     font-size: 20px;
   }
   h1 {
-    background-color: black;
-    border: 7px dashed #000000;
+    background-color: rgb(255, 255, 255);
+    /* border: 7px dashed #000000; */
     text-align: center;
     color: red;
     /* background-color: #04031c; */
     margin-bottom: 10px;
     /* display: inline-block; */
-    width: 1000px;
+    /* width: 1000px; */
   }
   h1:hover {
     color: #00fbff;
@@ -107,7 +107,7 @@
     font-size: 40px;
   }
   body {
-    background-image: url("Images/bg.jpg");
+    background-image: url("Images/layout.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
