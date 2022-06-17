@@ -89,9 +89,14 @@
       <p>Click here to get a random facts about me:</p>
       <button onclick="addRandomGreeting()">Click</button>
 
-      <form action="/hello" method="POST">
+      <form action="/formHandler" method="POST">
         <p>Enter Your contact info here:</p>
-        <textarea name="text-input">Enter Your Contact Info:</textarea>
+        <label for="name" >Name:</label>
+        <textarea id="name" name="name-text"></textarea><br>
+        <label for="email" class="font-style margin-left margin-top">Email:</label>
+        <textarea id="email" name="email-text"></textarea><br>
+        <label for="other" class="font-style margin-left margin-top">Other:</label>
+        <textarea name="text-input"></textarea>
         <br/>
         <input type="submit" />
         <!-- <button onclick="showServerTime()">Server</button> -->
