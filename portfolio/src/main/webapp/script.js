@@ -35,3 +35,26 @@ async function showServerTime() {
     dateContainer.innerText = textFromResponse;
   }
   
+  async function showServerInfo() {
+    const responseFromServer = await fetch('/formHandler');
+    const textFromResponse = await responseFromServer.text();
+  
+    const dateContainer = document.getElementById('information');
+    dateContainer.innerText = textFromResponse;
+  }
+
+  
+  function moveToContact(){
+    var element = document.getElementById("lastContainer");
+    element.scrollIntoView({behavior: "smooth"});
+
+}
+function moveToEducation(){
+    var element = document.getElementById("projects");
+    element.scrollIntoView({behavior: "smooth"});
+}
+
+function moveToExperience(){
+    var element = document.getElementById("workBox");
+    element.scrollIntoView({behavior: "smooth"});
+}
