@@ -7,11 +7,13 @@
   <artifactId>portfolio</artifactId>
   <version>1</version>
   
-<dependency>
+
+  
+<!-- <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-datastore</artifactId>
   <version>1.104.0</version>
-</dependency>
+</dependency> -->
 
   <properties>
     <!-- Java 11 -->
@@ -43,6 +45,14 @@
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-annotations</artifactId>
       <version>${jetty.version}</version>
+    </dependency>
+ 
+
+  <!-- Google Cloud Storage -->
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-storage</artifactId>
+      <version>1.113.0</version>
     </dependency>
   </dependencies>
 
